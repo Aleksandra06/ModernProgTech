@@ -53,9 +53,7 @@ namespace lab1
             Console.WriteLine("Function[3]: Перевод систем счислений\n Система счисления- > " + b + "\n Строка = " + str);
             int resultConvert = convert(str, b);
             Console.WriteLine(resultConvert);
-        
-        
-        
+       
         }
 
         public static int convert(string str ,int b)
