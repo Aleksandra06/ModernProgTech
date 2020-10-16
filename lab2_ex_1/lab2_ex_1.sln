@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2_ex_1", "lab2_ex_1\lab2_ex_1.csproj", "{104A6A31-67A7-42DD-8E86-55655E3A7A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{81CD5699-67F3-468F-98B9-893B59F27E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{1C8E8C63-326F-4F0A-8A43-9D261DB1F4E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{104A6A31-67A7-42DD-8E86-55655E3A7A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104A6A31-67A7-42DD-8E86-55655E3A7A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104A6A31-67A7-42DD-8E86-55655E3A7A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104A6A31-67A7-42DD-8E86-55655E3A7A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CD5699-67F3-468F-98B9-893B59F27E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CD5699-67F3-468F-98B9-893B59F27E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CD5699-67F3-468F-98B9-893B59F27E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CD5699-67F3-468F-98B9-893B59F27E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8E8C63-326F-4F0A-8A43-9D261DB1F4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8E8C63-326F-4F0A-8A43-9D261DB1F4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8E8C63-326F-4F0A-8A43-9D261DB1F4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8E8C63-326F-4F0A-8A43-9D261DB1F4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE618563-9797-4933-B863-CA8C1F502F75}
+	EndGlobalSection
+EndGlobal
