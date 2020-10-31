@@ -25,7 +25,7 @@ namespace lab1
             Console.WriteLine(result);
 
             // function 2
-
+            Console.WriteLine("Function [2]: Сдвиг");
             int k = random.Next(1, array.Length);
             Console.WriteLine("k = " + k);
             print(array, "Function [2]: Сдвиг вправо ДО");
@@ -44,19 +44,19 @@ namespace lab1
                 if (tmp < 10) {
                     ch = (char)(tmp + '0');
                 } else {
-                    ch = (char)(tmp  - 10 + 'A');
+                    ch = (char)(tmp - 10 + 'A');
                 }
                 str += ch;
             }
 
-            
+
             Console.WriteLine("Function[3]: Перевод систем счислений\n Система счисления- > " + b + "\n Строка = " + str);
             int resultConvert = convert(str, b);
             Console.WriteLine(resultConvert);
-       
+
         }
 
-        public static int convert(string str ,int b)
+        public static int convert(string str, int b)
         {
             int tmp;
             int result = 0;
@@ -75,18 +75,16 @@ namespace lab1
             return result;
         }
 
-        public static void shiftRight(double []array, int k)
+        public static void shiftRight(double[] array, int k)
         {
             for (int i = 0; i < k; i++) {
-                double tmp = array[array.Length - 1];
-                for (int j = array.Length - 2; j >= 0; j--) {
-                    array[j + 1] = array[j]; 
-                }
-                array[0] = tmp;
-            }
+            double tmp = array[array.Length - 1];
+            for (int j = array.Length - 2; j >= 0; j--) {
+            array[j + 1] = array[j]; }
+            array[0] = tmp; }
         }
 
-        public static double multOddIndex(double []array) // 4 -> 1 3 5
+        public static double multOddIndex(double[] array) // 4 -> 1 3 5
         {
             double mult = 1f;
             for (int i = 1; i < array.Length; i += 2) {

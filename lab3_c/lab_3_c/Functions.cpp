@@ -2,7 +2,7 @@
 
 int Functions::nod(int a, int b)
 {
-	while (a != b) {
+	while (a != b) { //6 4 | 2 4 | 2 2
 		if (a > b) {
 			a = a - b;
 		}
@@ -14,7 +14,7 @@ int Functions::nod(int a, int b)
 	return a;
 }
 
-int Functions::evenDigits(int a)
+int Functions::evenDigits(int a) // 123456 | 246
 {
 	int b = 0, n = 1;
 	while (a > 0) {
