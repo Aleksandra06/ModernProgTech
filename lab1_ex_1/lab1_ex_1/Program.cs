@@ -67,21 +67,20 @@ namespace lab1
                     Console.WriteLine(tmp);
                 } else {
                     tmp = str[i] - '0';
-                    Console.WriteLine(tmp);
-                }
-                result += tmp * (int)Math.Pow(b, str.Length - i - 1);
-            }
-
+                    Console.WriteLine(tmp); }
+                result += tmp * (int)Math.Pow(b, str.Length - i - 1); }
             return result;
         }
 
         public static void shiftRight(double[] array, int k)
         {
             for (int i = 0; i < k; i++) {
-            double tmp = array[array.Length - 1];
-            for (int j = array.Length - 2; j >= 0; j--) {
-            array[j + 1] = array[j]; }
-            array[0] = tmp; }
+                double tmp = array[array.Length - 1];
+                for (int j = array.Length - 2; j >= 0; j--) {
+                    array[j + 1] = array[j];
+                }
+                array[0] = tmp;
+            }
         }
 
         public static double multOddIndex(double[] array) // 4 -> 1 3 5
