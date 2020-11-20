@@ -17,17 +17,10 @@ namespace MyLibrary
         public static double SumChetIndexMassiv(double[,] a, int n, int m)
         {
             double sum = 0;
-            for (int i = 0; i < m; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    if ((i + j) % 2 == 0)
-                    {
-                        sum += a[i,j];
-                    }
-                }
-            }
-
+            for (int i = 0; i < m; i++) 
+                for (int j = 0; j < n; j++) 
+                    if ((i + j) % 2 == 0) 
+                        sum += a[i,j]; 
             return sum;
         }
 
@@ -35,16 +28,9 @@ namespace MyLibrary
         {
             double max = a[0,0];
             for (int i = 0; i < m; i++)
-            {
                 for (int j = 0; j < m; j++)
-                {
                     if (j <= i && max < a[i,j])
-                    {
                         max = a[i,j];
-                    }
-                }
-            }
-
             return max;
         }
     }
