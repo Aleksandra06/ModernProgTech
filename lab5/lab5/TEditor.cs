@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace lab5
 {
-    //enum partToEdit
-    //{
-    //    TOP, BOT
-    //};
-
-    enum commandType
+    enum CommandType
     {
         etoggleMinus, eaddNumber, eaddZero, edelSymbol,
         eclear, ewriteString
@@ -23,7 +13,6 @@ namespace lab5
         const string separator = "/";
         const string zeroStr = "0/1";
         string frac;
-        //partToEdit mode;
 
         public TEditor()
         {
@@ -45,15 +34,6 @@ namespace lab5
                 frac = '-' + frac;
             return frac;
         }
-
-        //partToEdit toggleMode()
-        //{
-        //    if (mode == partToEdit.TOP)
-        //        mode = partToEdit.BOT;
-        //    else
-        //        mode = partToEdit.TOP;
-        //    return mode;
-        //}
 
         public string AddNumber(int a)
         {
@@ -91,13 +71,13 @@ namespace lab5
             return frac;
         }
 
-        string Edit(commandType command)
+        string Edit(CommandType command)
         {
             switch (command)
             {
-                case commandType.etoggleMinus:
+                case CommandType.etoggleMinus:
                     return this.ToggleMinus();
-                case commandType.eaddNumber:
+                case CommandType.eaddNumber:
                     {
                         Console.Write("Enter number to add:");
                         int num;
@@ -105,16 +85,16 @@ namespace lab5
                         return this.AddNumber(num);
                         break;
                     }
-                case commandType.eaddZero:
+                case CommandType.eaddZero:
                     return this.AddZero();
                     break;
-                case commandType.edelSymbol:
+                case CommandType.edelSymbol:
                     return this.DelSymbol();
                     break;
-                case commandType.eclear:
+                case CommandType.eclear:
                     return this.Clear();
                     break;
-                case commandType.ewriteString:
+                case CommandType.ewriteString:
                     {
                         Console.Write("Enter string to write:");
                         string inp;
