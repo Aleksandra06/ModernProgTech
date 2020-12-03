@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab4_edit_pnumber", "lab4_edit_pnumber\lab4_edit_pnumber.csproj", "{7445802B-A193-4069-8D3E-217534B0CCB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UEditor", "UEditor\UEditor.csproj", "{568CE8BF-940F-416C-BC2F-62C70F26309A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{2977BE5B-4265-409C-8E88-E78EA7190F42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7445802B-A193-4069-8D3E-217534B0CCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7445802B-A193-4069-8D3E-217534B0CCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7445802B-A193-4069-8D3E-217534B0CCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7445802B-A193-4069-8D3E-217534B0CCB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568CE8BF-940F-416C-BC2F-62C70F26309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568CE8BF-940F-416C-BC2F-62C70F26309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568CE8BF-940F-416C-BC2F-62C70F26309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568CE8BF-940F-416C-BC2F-62C70F26309A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2977BE5B-4265-409C-8E88-E78EA7190F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2977BE5B-4265-409C-8E88-E78EA7190F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2977BE5B-4265-409C-8E88-E78EA7190F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2977BE5B-4265-409C-8E88-E78EA7190F42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {717E627A-C7DB-474D-9736-5F93905B3003}
+	EndGlobalSection
+EndGlobal
