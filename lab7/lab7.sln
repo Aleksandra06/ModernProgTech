@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab7", "lab7\lab7.csproj", "{5C0EA67A-78A0-42A9-8C8A-BA7F4DF8DB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{AFCD4F7F-0745-4013-A3A3-45A337E9871E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFrac", "..\lab1\TFrac\TFrac.csproj", "{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C0EA67A-78A0-42A9-8C8A-BA7F4DF8DB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0EA67A-78A0-42A9-8C8A-BA7F4DF8DB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0EA67A-78A0-42A9-8C8A-BA7F4DF8DB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0EA67A-78A0-42A9-8C8A-BA7F4DF8DB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCD4F7F-0745-4013-A3A3-45A337E9871E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCD4F7F-0745-4013-A3A3-45A337E9871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCD4F7F-0745-4013-A3A3-45A337E9871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCD4F7F-0745-4013-A3A3-45A337E9871E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {990B5D9A-8220-4890-AF90-C173213CDB2A}
+	EndGlobalSection
+EndGlobal

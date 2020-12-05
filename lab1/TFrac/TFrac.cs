@@ -38,11 +38,11 @@ namespace TFrac
             }
         }
 
-        //public TFrac()
-        //{
-        //    Numerator = 0;
-        //    Denominator = 1;
-        //}
+        public TFrac()
+        {
+            Numerator = 0;
+            Denominator = 1;
+        }
 
         public TFrac(int a, int b)
         {
