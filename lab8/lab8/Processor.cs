@@ -73,9 +73,14 @@ namespace lab8
 
         public void OperationSet(int newop)
         {
-            if (Enum.IsDefined(typeof(EOperation), newop))
+            try
+            {
                 Operation = (EOperation)newop;
-            else throw new ArgumentException();
+            }
+            catch
+            {
+                throw new ArgumentException();
+            }
         }
 
         public EOperation OperationGet()
@@ -105,7 +110,7 @@ namespace lab8
                     {
                         if (Rop.GetType().GetMethod("Sqr")?.Invoke(Rop, null) == null)
                         {
-                            Rop = (T)Math.Pow((dynamic)Rop, 2);
+                            Rop = (dynamic)Rop * (dynamic)Rop;
                         }
                         else Rop = (T)Rop.GetType().GetMethod("Sqr")?.Invoke(Rop, null);
                         break;
@@ -115,9 +120,14 @@ namespace lab8
 
         public void FunctionSet(int newfunc)
         {
-            if (Enum.IsDefined(typeof(EFunction), newfunc))
+            try
+            {
                 Function = (EFunction)newfunc;
-            else throw new ArgumentException();
+            }
+            catch
+            {
+                throw new ArgumentException();
+            }
         }
 
         public EFunction FunctionGet()

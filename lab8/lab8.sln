@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab8", "lab8\lab8.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{F945E30C-95D0-467A-A1DB-DA854D1C4D0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFrac", "..\lab1\TFrac\TFrac.csproj", "{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F945E30C-95D0-467A-A1DB-DA854D1C4D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F945E30C-95D0-467A-A1DB-DA854D1C4D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F945E30C-95D0-467A-A1DB-DA854D1C4D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400D8DAB-EE2F-4D23-BF7A-0E0F98B1085C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
