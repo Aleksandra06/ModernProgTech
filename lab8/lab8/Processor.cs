@@ -4,22 +4,6 @@ namespace lab8
 {
     public class Processor<T> where T : new()
     {
-        public enum EOperation
-        {
-            None,
-            Add,
-            Sub,
-            Mul,
-            Div
-        }
-
-        public enum EFunction
-        {
-            None,
-            Rev,
-            Sqr
-        }
-
         public EOperation Operation;
         public EFunction Function;
         public T Lop_Res, Rop;
